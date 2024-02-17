@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GrpcService3.props" />
+</Project>

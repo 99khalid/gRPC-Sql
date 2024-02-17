@@ -1,0 +1,2 @@
+obj\Debug\net7.0\Protos/ToDo.cs \
+obj\Debug\net7.0\Protos/ToDoGrpc.cs: Protos/ToDo.proto
