@@ -15,7 +15,8 @@ namespace GrpcService3
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
                     m => m.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName));
             });
-            builder.Services.AddGrpc();
+            builder.Services.AddGrpc().AddJsonTranscoding();
+
 
             var app = builder.Build();
 

@@ -2,36 +2,48 @@ syntax = "proto3";
 
 option csharp_namespace = "GrpcService3";
 
-package todoit;
+import "google/api/annotations.proto";
 
+package todoit;
 
 service ToDoIt {
     // Create
     rpc CreateToDo(CreateToDoRequest) returns (CreateToDoResponse) {
-
+        option (google.api.http) = {
+            post: "/v1/todo",
+            body: "*"
+        };
     }
 
     // Read single
     rpc ReadToDo(ReadToDoRequest) returns (ReadToDoResponse) {
-       
+        option (google.api.http) = {
+            get: "/v1/todo/{id}"
+        };
     }
 
     // Read list
     rpc ListToDo(GetAllRequest) returns (GetAllResponse) {
-       
+        option (google.api.http) = {
+            get: "/v1/todo"
+        };
     }
 
     // Update
     rpc UpdateToDo (UpdateToDoRequest) returns (UpdateToDoResponse) {
-       
+        option (google.api.http) = {
+            put : "/v1/todo",
+            body: "*"
+        };
     }
 
     // Delete
     rpc DeleteToDo (DeleteToDoRequest) returns (DeleteToDoResponse) {
-       
+        option (google.api.http) = {
+            delete: "/v1/todo/{id}"
+        };
     }
 }
-
 message CreateToDoRequest {
     string title = 1;
     string description = 2;

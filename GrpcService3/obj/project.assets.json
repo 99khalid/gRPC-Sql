@@ -46,6 +46,22 @@
           }
         }
       },
+      "Google.Api.CommonProtos/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "[3.18.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Google.Protobuf/3.25.3": {
         "type": "package",
         "compile": {
@@ -198,10 +214,18 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Grpc.JsonTranscoding/8.0.2": {
+      "Microsoft.AspNetCore.Grpc.JsonTranscoding/7.0.0": {
         "type": "package",
-        "build": {
-          "buildTransitive/Microsoft.AspNetCore.Grpc.JsonTranscoding.targets": {}
+        "dependencies": {
+          "Google.Api.CommonProtos": "2.5.0",
+          "Google.Protobuf": "3.21.6",
+          "Grpc.AspNetCore.Server": "2.49.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Grpc.JsonTranscoding.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Grpc.JsonTranscoding.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1337,6 +1361,25 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
+    "Google.Api.CommonProtos/2.5.0": {
+      "sha512": "E3XQotIEGsk3s6nux/oQKtAqUTZ6RK56gSxDwf16OV2QmWMlFXeITajW+Pi2COT+dqChIuPp2z3otvEnPosaqg==",
+      "type": "package",
+      "path": "google.api.commonprotos/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.api.commonprotos.2.5.0.nupkg.sha512",
+        "google.api.commonprotos.nuspec",
+        "lib/net461/Google.Api.CommonProtos.dll",
+        "lib/net461/Google.Api.CommonProtos.pdb",
+        "lib/net461/Google.Api.CommonProtos.xml",
+        "lib/netstandard2.0/Google.Api.CommonProtos.dll",
+        "lib/netstandard2.0/Google.Api.CommonProtos.pdb",
+        "lib/netstandard2.0/Google.Api.CommonProtos.xml"
+      ]
+    },
     "Google.Protobuf/3.25.3": {
       "sha512": "fDY/kt0gy2nVcoeMmiyDMtwgvDJG5qaU7+Ic77szKTvVkIvoo7tyf+d+QDlKSosB+FjoKocX/ObObxqKCq60uA==",
       "type": "package",
@@ -1601,21 +1644,17 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.Grpc.JsonTranscoding/8.0.2": {
-      "sha512": "fMB2FyyRukLmWwtxw06aD0TN0LYy/tlB3aICoJYXzUutA5OeFbpeiAkEC7+Pkj6DYIfBQM4REfw4mQwPVhUY6Q==",
+    "Microsoft.AspNetCore.Grpc.JsonTranscoding/7.0.0": {
+      "sha512": "i5M0hD5Kx1S0g1dyFCA9gwFvvvyaAlelHy4TAknPVrqUWVaO+T91qHYUE+cQPxpsCKgIy1E+YS6Y25uhDmcA7w==",
       "type": "package",
-      "path": "microsoft.aspnetcore.grpc.jsontranscoding/8.0.2",
+      "path": "microsoft.aspnetcore.grpc.jsontranscoding/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/Microsoft.AspNetCore.Grpc.JsonTranscoding.targets",
-        "buildTransitive/Microsoft.AspNetCore.Grpc.JsonTranscoding.targets",
-        "content/protos/google/api/annotations.proto",
-        "content/protos/google/api/http.proto",
-        "lib/net8.0/Microsoft.AspNetCore.Grpc.JsonTranscoding.dll",
-        "microsoft.aspnetcore.grpc.jsontranscoding.8.0.2.nupkg.sha512",
+        "lib/net7.0/Microsoft.AspNetCore.Grpc.JsonTranscoding.dll",
+        "microsoft.aspnetcore.grpc.jsontranscoding.7.0.0.nupkg.sha512",
         "microsoft.aspnetcore.grpc.jsontranscoding.nuspec"
       ]
     },
@@ -3902,7 +3941,7 @@
       "Google.Protobuf >= 3.25.3",
       "Grpc.AspNetCore >= 2.49.0",
       "Grpc.Tools >= 2.61.0",
-      "Microsoft.AspNetCore.Grpc.JsonTranscoding >= 8.0.2",
+      "Microsoft.AspNetCore.Grpc.JsonTranscoding >= 7.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.0",
@@ -3971,7 +4010,7 @@
           },
           "Microsoft.AspNetCore.Grpc.JsonTranscoding": {
             "target": "Package",
-            "version": "[8.0.2, )"
+            "version": "[7.0.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

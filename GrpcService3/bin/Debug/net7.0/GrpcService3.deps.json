@@ -11,7 +11,7 @@
           "Google.Protobuf": "3.25.3",
           "Grpc.AspNetCore": "2.49.0",
           "Grpc.Tools": "2.61.0",
-          "Microsoft.AspNetCore.Grpc.JsonTranscoding": "8.0.2",
+          "Microsoft.AspNetCore.Grpc.JsonTranscoding": "7.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
@@ -53,6 +53,17 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.6.0.0",
             "fileVersion": "1.600.22.20503"
+          }
+        }
+      },
+      "Google.Api.CommonProtos/2.5.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.25.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
           }
         }
       },
@@ -149,7 +160,19 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Grpc.JsonTranscoding/8.0.2": {},
+      "Microsoft.AspNetCore.Grpc.JsonTranscoding/7.0.0": {
+        "dependencies": {
+          "Google.Api.CommonProtos": "2.5.0",
+          "Google.Protobuf": "3.25.3",
+          "Grpc.AspNetCore.Server": "2.49.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Grpc.JsonTranscoding.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51819"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -734,6 +757,13 @@
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
     },
+    "Google.Api.CommonProtos/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E3XQotIEGsk3s6nux/oQKtAqUTZ6RK56gSxDwf16OV2QmWMlFXeITajW+Pi2COT+dqChIuPp2z3otvEnPosaqg==",
+      "path": "google.api.commonprotos/2.5.0",
+      "hashPath": "google.api.commonprotos.2.5.0.nupkg.sha512"
+    },
     "Google.Protobuf/3.25.3": {
       "type": "package",
       "serviceable": true,
@@ -804,12 +834,12 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Grpc.JsonTranscoding/8.0.2": {
+    "Microsoft.AspNetCore.Grpc.JsonTranscoding/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fMB2FyyRukLmWwtxw06aD0TN0LYy/tlB3aICoJYXzUutA5OeFbpeiAkEC7+Pkj6DYIfBQM4REfw4mQwPVhUY6Q==",
-      "path": "microsoft.aspnetcore.grpc.jsontranscoding/8.0.2",
-      "hashPath": "microsoft.aspnetcore.grpc.jsontranscoding.8.0.2.nupkg.sha512"
+      "sha512": "sha512-i5M0hD5Kx1S0g1dyFCA9gwFvvvyaAlelHy4TAknPVrqUWVaO+T91qHYUE+cQPxpsCKgIy1E+YS6Y25uhDmcA7w==",
+      "path": "microsoft.aspnetcore.grpc.jsontranscoding/7.0.0",
+      "hashPath": "microsoft.aspnetcore.grpc.jsontranscoding.7.0.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

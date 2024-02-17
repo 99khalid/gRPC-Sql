@@ -1,3 +1,9 @@
+C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.csproj.AssemblyReference.cache
+C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.AssemblyInfoInputs.cache
+C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.AssemblyInfo.cs
+C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.csproj.CoreCompileInputs.cache
+C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\bin\Debug\net7.0\appsettings.json
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\bin\Debug\net7.0\GrpcService3.exe
@@ -55,12 +61,6 @@ C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\bin\Debug\net7.0\ru
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.csproj.AssemblyReference.cache
-C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.AssemblyInfoInputs.cache
-C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.AssemblyInfo.cs
-C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.csproj.CoreCompileInputs.cache
-C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\staticwebassets\msbuild.GrpcService3.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\staticwebassets\msbuild.build.GrpcService3.props
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.GrpcService3.props
@@ -75,3 +75,6 @@ C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\re
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.pdb
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.genruntimeconfig.cache
 C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\ref\GrpcService3.dll
+C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\bin\Debug\net7.0\Google.Api.CommonProtos.dll
+C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\bin\Debug\net7.0\Microsoft.AspNetCore.Grpc.JsonTranscoding.dll
+C:\Users\khalid\Desktop\New folder\GrpcService3\GrpcService3\obj\Debug\net7.0\GrpcService3.MvcApplicationPartsAssemblyInfo.cs
